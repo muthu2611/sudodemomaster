@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [lister suite]">
+  <listeners>
+    <listener class-name="org.demo.util.Listioners"/>
+  </listeners>
+  <test thread-count="5" name="listioner test(failed)">
+    <classes>
+      <class name="sudodemo.FirstTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testtwo"/>
+          <include name="launchchrome"/>
+        </methods>
+      </class> <!-- sudodemo.FirstTest -->
+    </classes>
+  </test> <!-- listioner test(failed) -->
+</suite> <!-- Failed suite [lister suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="lister suite">
+	<listeners>
+		<listener class-name="org.demo.util.Listioners">
+		</listener>
+	</listeners>
+	
+  <test name="listioner test">
+    <classes>
+      <class name="sudodemo.FirstTest"> </class>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
